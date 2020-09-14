@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2019, 11:10:18
+    Author     : m222327
+*/
+
+body
+{
+    position: fixed;
+    margin:0px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+}
+
+#header
+{
+    margin: 0%;
+    width: 100%;
+    height: 10%;
+    overflow:auto;
+
+    background-color: #404040;
+}
+#principal
+{
+    overflow:auto;
+    float:left;
+    margin: 0%;
+    padding-left: 5%;
+    height: 85%;
+    width: 80%;
+    
+    
+    min-height: 300px;
+    position: relative;
+}
+#barralateral
+{
+    margin: 0%;
+    width: 15%;
+    height: 85%;
+    float:left;
+    background-color: lightgray;
+}
+#rodape
+{
+    padding-top: 1px;
+    clear:both;
+    width:100%;
+    height:5%;
+    background-color:#404040; 
+}
+
+#textoRodape
+{
+    font-size: x-small;
+    text-align: center;
+    color: white;
+}
+table
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+img
+{
+    width: 130px;
+    height: 130px;
+}
+h1
+{
+    margin:0px;
+    padding-top: 15px;
+    vertical-align: middle;
+    color: white;
+    text-indent: 32px;
+    font-family: "Verdana", monospace;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px black;
+}
+h2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px grey;
+    font-family: "Verdana", monospace;
+    font-size: 2em;
+}
+p
+{
+    text-indent: 0px;
+    font-family: "Verdana", monospace;
+    font-size: 1em;
+}
+.semMargem
+{
+    margin:0px;
+}
+.boxRadio
+{
+    border-radius: 5px;
+    font-family: "Verdana", monospace;
+    text-indent: 32px;
+    margin-top: 5px;
+}
+.boxTexto
+{
+   width: 70%;
+   height: 30px;
+   border-radius: 5px;
+   font-family: "Verdana", monospace;
+   text-indent: 32px;
+   margin-top: 5px;
+}
+.boxNumber
+{
+   width: 20%;
+   height: 30px;
+   border-radius: 5px;
+   font-family: "Verdana", monospace;
+   text-indent: 32px;
+   margin-top: 5px;
+}
+.menu
+{
+    height: 50px;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Verdana", sans-serif;
+    list-style: none;
+}
+.listamenu
+{
+    font-size: 18px;
+    width: 90%;
+    background-color: darkgray;
+    border: 1px solid;
+    border-color:lightgray;
+    border-radius: 15px;
+    color:black;
+    list-style-type: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ------------------------------- CLASSES IMPORTADADAS! -------------------------------  */
+
+/* SITE Referência: https://www.bestcssbuttongenerator.com */
+
+.botao
+{
+    box-shadow : 0 1px 0 0 #ffffff inset;
+    background-color : #ededed;
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+    border-bottom-right-radius : 20px;
+    border-bottom-left-radius : 20px;
+    text-indent : 0;
+    border : #dcdcdc solid 1px;
+    display : inline-block;
+    color : #777777;
+    font-family: " Verdana", Arial, monospace;
+    font-size : 15px;
+    font-weight : bold;
+    font-style : normal;
+    height : 50px;
+    line-height : 50px;
+    width : 200px;
+    text-decoration : none;
+    text-align : center;
+    text-shadow : 1px 1px 0 #ffffff;
+}
+
+.botao:hover
+{
+    background-color : #dfdfdf;
+}
+
+.botao:active
+{
+    position : relative;
+    top : 1px;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+   

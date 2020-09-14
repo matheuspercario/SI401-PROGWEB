@@ -1,0 +1,151 @@
+/* Arquivo de estilo externo CSS */
+
+/*
+-------------------------------------------------------------------------- 
+Seções Principais
+-------------------------------------------------------------------------- 
+*/
+body {
+    font-family: Arial;
+    font-size: 22px;
+
+    width: 98.5%;
+    height: 100%;
+    border: 10px;
+    margin: 15px;
+
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background: #56CCF2;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    border-radius: 10px;
+}
+
+main {
+    height: 750px;
+    position: relative;
+    overflow: auto;
+}
+
+footer {
+    font-family: cursive;
+    border: 10px;
+
+}
+
+
+/*
+-------------------------------------------------------------------------- 
+Elementos Principais
+-------------------------------------------------------------------------- 
+*/
+table {
+    width: 100%
+}
+
+sub {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 22px;
+}
+
+/*
+-------------------------------------------------------------------------- 
+ID's'
+-------------------------------------------------------------------------- 
+*/
+#section {
+    background-color: #ffffff;
+    float: left;
+    width: 80%;
+    margin-top: 10px;
+    height: 740px;
+}
+
+#menu {
+    float: left;
+    width: 20%;
+    height: 735px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+#listamenu {
+    height: 700px;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Verdana", sans-serif;
+    list-style: none;
+}
+
+#center {
+    text-align: center;
+}
+
+#direita {
+    float: right;
+}
+
+#esquerda {
+    float: left;
+}
+
+#rodape {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    background-color: white;
+    border: 5px;
+}
+
+#rodape2 {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+/*
+-------------------------------------------------------------------------- 
+Classes
+-------------------------------------------------------------------------- 
+*/
+.itemmenu {
+    font-size: 18px;
+    width: 90%;
+    background-color: #B0C4DE;
+    border: 1px solid;
+    border-color: #778899;
+    border-radius: 15px;
+    color: black;
+    list-style-type: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.paragrafo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    margin-left: 15px;
+}

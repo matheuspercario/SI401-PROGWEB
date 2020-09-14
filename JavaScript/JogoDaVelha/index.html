@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+
+    <link rel="stylesheet" type="text/css" href="styleCSS.css"/>
+    <script src="scriptJogoVelha.js"></script>
+</head>
+
+<body>
+<div id="Current_Player">
+    <p>Current Player: </p>
+    <img src="imagens/x.png" height="20" width="20" alt="imagem do jogador atual"/>
+</div>
+<div class="corpo">
+
+    <h1> Jogo da Velha </h1>
+    <table>
+        <tr>
+            <td>
+                <img src="imagens/branco.png" id="c01" onclick='swap("c01")' alt="imagem  "/>
+            </td>
+            <td class="meiocima">
+                <img src="imagens/branco.png" id="c02" onclick='swap("c02")' alt="imagem  "/>
+            </td>
+            <td>
+                <img src="imagens/branco.png" id="c03" onclick='swap("c03")' alt="imagem  "/>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="meio">
+                <img src="imagens/branco.png" id="c04" onclick='swap("c04")' alt="imagem  "/>
+            </td>
+            <td id="meiopersonalizado">
+                <img src="imagens/branco.png" id="c05" onclick='swap("c05")' alt="imagem  "/>
+            </td>
+            <td class="meio">
+                <img src="imagens/branco.png" id="c06" onclick='swap("c06")' alt="imagem  "/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="imagens/branco.png" id="c07" onclick='swap("c07")' alt="imagem  "/>
+            </td>
+            <td class="meiobaixo">
+                <img src="imagens/branco.png" id="c08" onclick='swap("c08")' alt="imagem  "/>
+            </td>
+            <td>
+                <img src="imagens/branco.png" id="c09" onclick='swap("c09")' alt="imagem  "/>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="rodape">
+    <p style="">
+        © 2019 <i>Matheus Bruder e Kevin Barrios</i> - Jogo da Velha
+    </p>
+</div>
+</body>
+</html>

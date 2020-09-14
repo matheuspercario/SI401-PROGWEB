@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScrip - Exercício 02</title>
+        <meta charset="UTF-8">
+           
+        
+        <script type="text/javascript" src="mostrar-dados.js"></script>
+    </head>
+    <body>
+        <div id="principal">
+            <h1>
+                Formulário com JavaScript
+            </h1>
+            
+            
+            <form name="formulario" onsubmit="return mostrar_dados()" action="">
+                <p>Nome: <input type="text" name="primeironome"/> </p> 
+
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="masculino"/> Masculino <br/>
+                <input type="radio" name="sexo" value="feminino"/> Feminino <br/>
+                <input type="radio" name="sexo" value="outros"/> Outros <br/><br/>
+                
+                <p>Estado Civil:</p>
+                <select name="estadocivil">
+                    <option value="Solteiro" selected="selected"> Solteiro </option>
+                    <option value="Casado"> Casado </option>
+                    <option value="Viúvo"> Viúvo </option>
+                    <option value="Divorciado"> Divorciado </option>
+                </select>
+                
+                <p>Bens Financiados:</p>
+                <input type="checkbox" name="financiados" value="Imóvel"/> Imóvel <br/>
+                <input type="checkbox" name="financiados" value="Carro"/> Carro <br/>
+                <input type="checkbox" name="financiados" value="Barco"/> Barco <br/>
+                <br/>
+                
+                <input type="submit" value="Enviar"/>
+            </form> 
+            
+            <h2 id="campos"></h2>
+            <p id="mostrar_nome"></p>
+            <p id="mostrar_sexo"></p>
+            <p id="mostrar_estadoCivil"></p>
+            <p id="mostrar_financiados"></p>
+            
+        </div>
+        
+       
+    </body>
+</html>
